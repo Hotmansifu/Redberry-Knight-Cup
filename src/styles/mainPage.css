@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
+  height: 95vh;
+}
+button {
+  cursor: pointer;
+}
+.btncrs {
+  cursor: pointer;
+}
+
+.Container1 {
+  position: absolute;
+  width: 51vw;
+  height: 2000px;
+  top: 0;
+  left: 0;
+  background-color: #b4b4b4;
+}
+.Container2 {
+  position: absolute;
+  width: 50vw;
+  height: 2000px;
+  right: 0;
+  top: 0;
+  background-color: #fd5334;
+  text-align: center;
+}
+.block0 {
+  height: 84px;
+  width: 1000px;
+  position: absolute;
+  top: 0;
+  background-color: #7025fb;
+}
+.block0 h1 {
+  font-size: 19px;
+  color: white;
+  text-indent: 50px;
+  position: relative;
+  top: -8px;
+}
+.pictureChess {
+  width: 51vw;
+  height: 100vh;
+}
+.crownPic1 {
+  position: relative;
+  top: 30px;
+  left: 34px;
+  width: 12px;
+  height: 15px;
+}
+.Container2 h1 {
+  position: relative;
+  color: white;
+  font-size: 60px;
+  top: 2in;
+  right: 2in;
+}
+.Container2 p {
+  position: relative;
+  top: 1in;
+  left: 0.8in;
+}
+.secondH {
+  position: relative;
+  margin-top: -20px;
+  text-indent: 59px;
+}
+button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 24px;
+  gap: 10px;
+  top: 2.4in;
+  left: 1.1in;
+  border-radius: 8px;
+  background-color: #212529;
+  color: white;
+  border: 1px solid #212529;
+  outline: none;
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
+button a:visited {
+  color: white;
+  text-decoration: none;
+}

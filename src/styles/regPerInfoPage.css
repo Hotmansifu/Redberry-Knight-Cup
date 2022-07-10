@@ -1,0 +1,621 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buttonback1 {
+  position: relative;
+  left: 10in;
+}
+.block {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  height: 200px;
+  width: 1000px;
+  background: #7025fb;
+}
+
+.block h1 {
+  font-size: 25px;
+  color: white;
+  text-indent: 50px;
+  position: relative;
+  top: 0px;
+}
+
+.subContainer999 {
+  width: 100%;
+  height: 1196px;
+  padding: 0;
+  background: url(../images/second.png);
+  background-repeat: no-repeat;
+  
+}
+
+.subContainer999{
+  position: absolute;
+  width: 100%;
+  height: 996px;
+  left: 0;
+  top: 0;
+  background-position: center;
+  object-fit: cover;
+}
+.block2 {
+  position: relative;
+  left: 10.41in;
+  height: 84px;
+  width: 1000px;
+  background: white;
+  border: 1px solid rgba(185, 180, 196, 0.3);
+}
+.block2 h1 {
+  /* Start creating your account */
+
+  position: absolute;
+  width: 735px;
+  height: 30px;
+  left: 48px;
+  top: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-transform: capitalize;
+
+  color: #212529;
+}
+.crownpng420{
+  left: 30px;
+  top: 28px;
+  bottom: 30px;
+  right: 8px;
+  position: relative;
+}
+.transitionpic1 {
+  position: absolute;
+  width: 366px;
+  height: 65px;
+  left: 971px;
+  top: 144px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 775px;
+  height: 304px;
+  left: 1100px;
+  top: 481px;
+  /* bottom border-only */
+}
+
+.inputname {
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #212529;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* bottom border-only */
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.inputnamered {
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* bottom border-only */
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #ec3a3a;
+  border-bottom: 1px solid rgb(248, 127, 127);
+}
+
+.inputemail {
+  /* text */
+
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Gray/900 */
+
+  color: #212529;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* bottom border-only */
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.inputemailred {
+  /* text */
+
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Gray/900 */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* bottom border-only */
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #ec3a3a;
+  border-bottom: 1px solid rgb(248, 127, 127);
+}
+
+.inputnumber {
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* bottom border-only */
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+
+  /* Gray/900 */
+
+  color: #212529;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.inputnumberred {
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* bottom border-only */
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #ec3a3a;
+  border-bottom: 1px solid rgb(248, 127, 127);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.inputdate {
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Gray/900 */
+
+  color: #212529;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.inputdatered {
+  width: 743px;
+  height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Gray/900 */
+
+  color: #ec3a3a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.block3 h3 {
+  position: absolute;
+  width: 328px;
+  height: 48px;
+  left: 1100px;
+  top: 324px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  color: #000000;
+}
+.block3lowercase h3 {
+  position: absolute;
+  width: 205px;
+  height: 21px;
+  left: 1100px;
+  top: 375px;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  text-transform: capitalize;
+
+  color: #95939a;
+}
+.buttonback1 {
+  /* Button */
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px 24px;
+  gap: 10px;
+
+  position: absolute;
+  width: 93px;
+  height: 53px;
+  left: 1100px;
+  top: 873px;
+
+  border: 1px solid #212529;
+  border-radius: 8px;
+}
+.buttonbacktext1 {
+  /* Button */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px 24px;
+  gap: 10px;
+
+  position: absolute;
+  width: 93px;
+  height: 53px;
+  left: 971px;
+  top: 873px;
+
+  border: 1px solid #212529;
+  border-radius: 8px;
+}
+.buttonback1 h3 {
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: white;
+  width: 45px;
+  height: 27px;
+  cursor: pointer;
+}
+.buttonnext {
+  /* Frame 10 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px 24px;
+  gap: 10px;
+
+  position: absolute;
+  width: 128px;
+  height: 53px;
+  left: 1718px;
+  top: 873px;
+
+  background: #212529;
+  border-radius: 8px;
+}
+.textnext {
+  width: 44px;
+  height: 27px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: auto;
+}
+.photodescript {
+  position: absolute;
+  width: 423px;
+  height: 83px;
+  left: 132px;
+  top: 295px;
+
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  font-weight: 100px;
+  font-size: 26px;
+  line-height: 35px;
+  text-transform: uppercase;
+
+  color: #212529;
+}
+.author {
+  position: absolute;
+  width: 222px;
+  height: 33px;
+  left: 132px;
+  top: 402px;
+
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #e5e6e8;
+}
+button {
+  cursor: pointer;
+}
+.Frame12 {
+  /* Frame 12 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  position: absolute;
+  width: 262px;
+  height: 40px;
+  left: 1090px;
+  top: 144px;
+}
+.Frame9 {
+  box-sizing: border-box;
+
+  width: 40px;
+  height: 40px;
+
+  background: #e9faf1;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.check-all1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 17px;
+  top: -7px;
+  margin: auto;
+  font-family: "Open Sans";
+  font-weight: 900;
+}
+.line {
+  width: 174px;
+  height: 0px;
+
+  border: 1px solid rgba(185, 180, 196, 0.3);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.Frame10 {
+  box-sizing: border-box;
+
+  width: 40px;
+  height: 40px;
+
+  background: #f5f5f5;
+  border: 1px solid #e5e6e8;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.Frame10 p {
+  position: relative;
+  width: 11px;
+  height: 25px;
+  left: 14px;
+  top: 7px;
+  bottom: 100px;
+  margin: -0;
+  font-family: "nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #95939a;
+}
+.inputdate {
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+button {
+  display: flex;
+  flex-direction: row;
+}
+.Personalinfotext {
+  position: absolute;
+  width: 158px;
+  height: 24px;
+  left: -35px;
+  top: 26px;
+  bottom: 868px;
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #000000;
+}
+.ChessExptext1 {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 180px;
+  top: 30px;
+  bottom: 868px;
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+}
+.block25 {
+  height: 84px;
+  width: 1000px;
+  position: absolute;
+  top: 0;
+  background-color: #7025fb;
+}
+.block25 h1 {
+  font-size: 19px;
+  color: white;
+  text-indent: 50px;
+  position: relative;
+  top:-14px;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height:1080px;
+    top:-14px;
+    left:0;
+    
+  }
+  .block{
+    height: 200px;
+    width: 923px;
+    position:relative;
+    left: 0;
+    top: 0;
+    background-color: #7025FB;
+  }
+  .block h1{
+    font-size:19px;
+    color:white;
+    text-indent: 50px;
+    position:relative;
+    top:20px;
+  }
+  .subContainer1 {
+    width: 923px;
+    height: 1196px;
+    padding:0;
+  }
+  .subContainer6 {
+    position: absolute;
+    width: 923px;
+    height: 1080px;
+    left: 0px;
+    top: 84px;
+    background: url(../images/fourth.png);
+    background-size: 1000px;
+    background-repeat: repeat-x;
+    background-position:center;
+    object-fit: cover;
+  }
+  .subContainer7{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+  }
+  .SuccesRocket{
+    position: relative;
+    left:3.5in;
+    bottom:1in;
+  }
+  .onboardingcompl{
+    width: 402px;
+    height: 54px;
+    font-family: 'Nunito', sans-serif; 
+    font-style: normal;
+    font-weight: 10000;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    left:10%;
+  }
+  .crownpng{
+    left:30px;
+    top:21.2px;
+    bottom:30px;
+    right:8px;
+    position: absolute;
+  }
